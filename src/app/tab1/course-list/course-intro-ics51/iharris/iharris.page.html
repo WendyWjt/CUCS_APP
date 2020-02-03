@@ -1,0 +1,67 @@
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-ics51">
+          返回ICS 51列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    ICS 51 Intro Computer Organization - Ian Harris
+                  </a>
+                </h2>
+            </header>
+              内容：学习基础汇编语言MIPS、硬件知识
+              <br>Professor: Ian Harris
+							<br>难易程度: ★★★
+							<br>先修课目:ICS 31/CSE 41和ICS 6B
+							<br>TA: Grady Yu
+							<br>Discussion & Lab: 无
+							<br>Piazza: 有
+							<br>Textbook: Computer Systems A Programmer‘s Perspective
+							<br>Rate my professor 评分: 4.0
+							<br>Grading Criteria:
+							<br>· Lab - 80%
+							<br>· Midterm - 10%
+							<br>· Final - 10%
+							<br>Comments:挺好的老师，ppt 很仔细。这个课挺水的 但是final midterm 还是要好好学的
+          </article>
+        </span>
+      </div>
+    </div>
+  </body>
+</ion-content>
