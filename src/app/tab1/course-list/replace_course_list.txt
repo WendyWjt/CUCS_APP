@@ -1,0 +1,96 @@
+    <ion-item href="course-list/course-intro-cs112"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 112</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs113"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 113</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs116"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 116</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs121"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 121</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs122-a"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 122A</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs122-b"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 122B</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs122-c"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 122C</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs132"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 132</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs134"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 134</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs141"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 141</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs161"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 161</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs162"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 162</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs164"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 164</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs171"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 171</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs177"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 177</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs178"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 178</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs193"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>ICS 193</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-cs143-a"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>CS 143A</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-inf121"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>INF 121</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-inf131"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>INF 131</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-inf151"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>INF 151</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-math3-a"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>MATH 3A</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-stats5"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>STATS 5</ion-label> 
+    </ion-item>
+    <ion-item href="course-list/course-intro-stats120-a"> 
+      <ion-icon slot="start" color="medium" name="create"></ion-icon> 
+      <ion-label>STATS 120A</ion-label> 
+    </ion-item> 
