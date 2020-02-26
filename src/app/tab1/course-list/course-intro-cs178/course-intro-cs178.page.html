@@ -1,9 +1,58 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs178</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 178 Machine Learning and Data-Mining
+                  </a>
+                </h2>
+            </header>
+            <ion-list>
+              <ion-item href='course-list/course-intro-cs178/esudderth'>
+                <ion-icon slot="start" color="medium" name="star"></ion-icon>
+                <ion-label>Erik Sudderth</ion-label>
+              </ion-item>
+              <ion-item href='course-list/course-intro-cs178/athomas'>
+                <ion-icon slot="start" color="medium" name="star"></ion-icon>
+                <ion-label>Ihler, Alexander Thomas</ion-label>
+              </ion-item>
+            </ion-list>
+          </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

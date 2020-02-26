@@ -1,9 +1,70 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>mkosters</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-math3-a">
+          返回Math 3A列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    MATH 3A Intro Linear Algebra - M. Kosters
+                  </a>
+                </h2>
+            </header>
+            <br>Professor:  KOSTERS, M
+            <br>
+            <br>难易程度: ★★
+            <br>
+            <br>先修课目：无
+            <br>
+            <br>TA: REN, R. 中国人
+            <br>
+            <br>Discussion/Textbook: 同上。
+            <br>
+            <br>Rate my professor 评分:
+            <br>
+            <br>没有评分，貌似是澳大利亚来的老师，挺年轻的，也是认真负责的老师，但是考试有点难（可能是自己没好好学），讲课有点快，发个呆就不知道在讲什么了。如果能选上面那个professor，就尽量选上面那个吧。
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>基本同上， 除了把1个30%的midterm 变成 两个 各占15%的midterm。然后作业大约是一共6-7个，除了书上的题目，他还会另外自己出一两道题目。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

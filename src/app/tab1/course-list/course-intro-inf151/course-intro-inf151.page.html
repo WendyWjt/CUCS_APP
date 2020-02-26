@@ -1,9 +1,79 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-inf151</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    INF 151  Project Management - Mark Gloria
+                  </a>
+                </h2>
+            </header>
+            <br>Professor: Mark Gloria
+            <br>
+            <br>难易程度：★★★★
+            <br>
+            <br>先修科目: IN4MATX 43 or ICS 52
+            <br>
+            <br>TA：NA
+            <br>
+            <br>Discussion: 不强制
+            <br>
+            <br>Piazza : 无
+            <br>
+            <br>Textbook: NA
+            <br>
+            <br>Rate my professor 评分：3.4
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>1）Assignments 35% 一个有10个group作业，由TA+批改，基本上按照要求写就给分，还是比较容易的。
+            <br>
+            <br>（2）Quizzes 10% 一共9次左右quiz，要求课前阅读材料，只要做了课前阅读quiz不难，drop最低分。
+            <br>
+            <br>（3）Midterm 20% 还挺难的，要求对课本glossary有很深的了解
+            <br>
+            <br>（4）Final 25% 特别难，comprehensive而且有很多要背的内容
+            <br>
+            <br>Comments:
+            <br>
+            <br>教授：讲课基本按照ppt，考试内容确实是她上课时候说过的，但是她课上说的真的超级浅，导致有一种考试很简单的错觉. 老师喜欢先Quiz再讲东西，reading是必须要做的。老师比较和蔼，但是教学方式我个人认为比较落后。
+            <br>
+            <br>课程：这是所有INF课里比较难拿A的之一，主要难度在于midterm和final. 课程基本上就是介绍每种Management，要记很多东西。Project作业很简单，最后也不用交自己的project，只需要presentation。认真读书做quiz和考试是最重要的。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

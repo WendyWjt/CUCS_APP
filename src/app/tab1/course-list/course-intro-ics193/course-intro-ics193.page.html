@@ -1,9 +1,71 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-ics193</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    ICS 193 Tutoring in ICS - Richard Pattis
+                  </a>
+                </h2>
+            </header>
+            <br>Professor: Pattis
+            <br>
+            <br>难易程度：★
+            <br>
+            <br>TA：NA
+            <br>
+            <br>Discussion: 不强制
+            <br>
+            <br>Piazza : 无
+            <br>
+            <br>Textbook: NA
+            <br>
+            <br>Rate my professor 评分：3.4
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>Tutor学生，每周要求写总结，最后大作业是对tutor program的建议
+            <br>
+            <br>Comments:
+            <br>
+            <br>教授：Pattis很好。Lab coordinator 很差。不负责，有事建议直接发信给Pattis 跳过这个人
+            <br>
+            <br>课程：送A的课
+         </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

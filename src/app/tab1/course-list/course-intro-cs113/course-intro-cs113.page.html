@@ -1,9 +1,81 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs113</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 113 Computer Game Development - Darren Denenberg
+                  </a>
+                </h2>
+            </header>
+            内容: Computer Game Development
+            <br>
+            <br>Professor: Darren Denenberg
+            <br>
+            <br>难易程度: ★★★
+            <br>
+            <br>先修科目:
+            <br>
+            <br>COMPSCI 112 or COMPSCI 171 or IN4MATX 121 or ART 106B or I&C SCI 163 or I&C SCI 166.
+            <br>
+            <br>Same as IN4MATX 125.
+            <br>
+            <br>Discussion:强制
+            <br>
+            <br>Piazza: 无
+            <br>
+            <br>Textbook:无
+            <br>
+            <br>Ratemyprofessor: 2.6
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>·50% writing assignment
+            <br>
+            <br>·20% design document
+            <br>
+            <br>·30% game(教授中途改scale)
+            <br>
+            <br>Comment:
+            <br>
+            <br>教授：没什么干货的老师，讲课全在扯游戏历史和开发游戏一点关系都没有，作业凭心情给，想到一个布置一个，对作业语法要求严格。感觉很草率，课上就讲游戏历史，不教怎么写游戏。
+            <br>
+            <br>课程：没什么收获，成绩占比有些模糊，也不是很严谨
+          </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

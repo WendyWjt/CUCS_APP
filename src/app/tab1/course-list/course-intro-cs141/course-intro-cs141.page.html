@@ -1,9 +1,77 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs141</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 141 Concepts in Programming Languages I - Klefstad
+                  </a>
+                </h2>
+            </header>
+            <br>Professor: Klefstad
+            <br>
+            <br>难易程度：★★★★
+            <br>
+            <br>先修科目: (ICS 51 or CSE 31 or EECS 31)and(ICS 46 OR CSE 46）
+            <br>
+            <br>TA：NA
+            <br>
+            <br>Discussion: 不强制
+            <br>
+            <br>Piazza : 有
+            <br>
+            <br>Textbook: NA
+            <br>
+            <br>Rate my professor 评分：2.8
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>Homework 40%
+            <br>
+            <br>Quiz 40%
+            <br>
+            <br>Final 20%
+            <br>
+            <br>Comments:
+            <br>
+            <br>教授给的quiz有点多 ppt都在canvas
+            <br>
+            <br>课程：quiz有些多 不难 作业需要自学一些
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

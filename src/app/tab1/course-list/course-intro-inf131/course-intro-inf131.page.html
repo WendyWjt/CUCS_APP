@@ -1,9 +1,83 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-inf131</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    INF 131 Human Computer Interaction - Matt Bietz
+                  </a>
+                </h2>
+            </header>
+            <br>Professor: Matt Bietz
+            <br>
+            <br>难易程度：★★
+            <br>
+            <br>先修科目: IN4MATX 41 or ICS 10 or ICS 21 or CSE 21 or ICS H21 or ICS 31 or CSE 41 or ENGR 10 or ENGRMAE 10
+            <br>
+            <br>TA：NA
+            <br>
+            <br>Discussion: 不强制
+            <br>
+            <br>Piazza : 无
+            <br>
+            <br>Textbook: Designing the User Interface - Strategies for Effective Human-Computer Interaction, 6th Edition
+            <br>
+            <br>Rate my professor 评分：4.8
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>Homework - 40%
+            <br>
+            <br>Midterm - 20%
+            <br>
+            <br>Final - 25%
+            <br>
+            <br>Course engagement - 15%
+            <br>
+            <br>course engagement是根据上课的pop quiz分数，discussion的presentation分数，和其他参与程度给出的。
+            <br>
+            <br>Comments:
+            <br>
+            <br>教授：老师非常好，我见过最好的老师。人好，课讲的好，课也水
+            <br>
+            <br>课程：非常棒，只要好好写作业，复习考试，每节课都去，有很大可能拿A+的
+            <br>
+            <br>
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

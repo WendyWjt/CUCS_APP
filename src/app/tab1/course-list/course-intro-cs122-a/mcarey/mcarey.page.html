@@ -1,9 +1,100 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>mcarey</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-cs122-a">
+          返回CS 122A列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 122A Introduction to Data Management - Mike Carey
+                  </a>
+                </h2>
+            </header>
+            <br>内容：数据管理入门
+            <br>
+            <br>Professor: Mike Carey
+            <br>
+            <br>难易程度: ★★
+            <br>
+            <br>先修课目：ICS 33。极力推荐先上6B，对部分课程内容有帮助
+            <br>
+            <br>TA: Abdulrahman A. Alsaudi &
+            <br>
+            <br>Taewoo Kim
+            <br>
+            <br>Grader:  不明
+            <br>
+            <br>Discussion:  强制性，可以drop一个。TA上课考quiz（不按对错给分，来了就满分），考完直接讲。相比去听prof上课讲的概念，去听TA的dis对考试有更直接的帮助。列出的这两位TA分别为韩国小哥和中东小哥，讲课水平相当不错
+            <br>
+            <br>Piazza: 有
+            <br>
+            <br>Textbook: Database Management Systems (3rd Edition) by Raghu Ramakrishnan and Johannes Gehrke (a.k.a. "the Cow book"). 网上有pdf
+            <br>
+            <br>Rate my professor 评分: 5.0
+            <br>
+            <br>（评价量较少所以特高，不过平心而论4.5以上完全有）
+            <br>
+            <br>http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1800941
+            <br>
+            <br>这位老师上课对概念的讲解十分清楚，而且积极回答各色学渣大佬提出的各种刁钻问题。上课的时候也会讲解各种知识点对应的例子（但是都是极其简单的例子，还是TA的discussion更有用）。由于是upper的课程，大部分授课内容都是理论性质的，推荐大家先做好心理准备。后面几周学习的SQL跟另外的编程语言也没有太多共同点（由于是database专用，特立独行）。如果大佬们先读了他的reading和ppt觉得没有不懂的地方可以不去上课。（Prof的原话）
+            <br>
+            <br>Grading criteria:
+            <br>
+            <br>· Homework  40%
+            <br>
+            <br>8个HW，drop 1个。难度并不是太低建议提前做。
+            <br>
+            <br>· Quiz 5%
+            <br>
+            <br>每周1个，drop 1个。去了dis满分，不拿白不拿。
+            <br>
+            <br>· Midterm exam 25%
+            <br>
+            <br>基本跟HW一样，有cheat sheet，有之前的example。
+            <br>
+            <br>· Final 30%
+            <br>
+            <br>同Midterm, 但由于知识难度的问题，Final比Midterm难一些，但不是cumulative的。
+            <br>
+            <br>Comment: 这节课内容相较于其他的upper算比较简单的，但是跟lower的课相比还是比较难的，需要多读读ppt和reading才能保证A到手。这位Prof在122A里面算是最好的了，讲的很清晰作业要求也比较清晰，piazza上也能经常看见他，经常自嘲工资低。强烈推荐要上122A的同学们上他的课。
+          </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

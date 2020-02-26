@@ -1,9 +1,88 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>esudderth</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-cs178">
+          返回CS 178列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 178 Machine Learning and Data-Mining - Erik Sudderth
+                  </a>
+                </h2>
+            </header>
+            <br>内容:Machine Learning and Data-Mining
+            <br>
+            <br>Professor: Erik Sudderth
+            <br>
+            <br>难易程度: ★★★
+            <br>
+            <br>先修科目: ICS 6B & ICS 6D & ICS 6N/MATH 3A & MATH 2B & STATS 67(或者STATS 120A+STATS 7)
+            <br>
+            <br>TA:John Hope
+            <br>
+            <br>Discussion: 无
+            <br>
+            <br>Piazza:有
+            <br>
+            <br>Textbook:无
+            <br>
+            <br>Ratemyprofessor: 3.2
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>· Homework     25%
+            <br>
+            <br>· Project      15%
+            <br>
+            <br>· Midterm     25%
+            <br>
+            <br>· Final      35%
+            <br>
+            <br>Comments:
+            <br>
+            <br>1.Canvas有每节课的PPT，和历年的PPT几乎一样，YouTube也有别的老师录下来的视频，感觉讲的比我们老师还要好。熟悉概念就好，具体算法代码考试不考。
+            <br>
+            <br>2.感觉对学生背景expectation较高 很多东西上课时会快速略过。多做sample就行
+            <br>
+            <br>3.这个老师讲课很清楚的，就是这门课吧，比较容易听着听着就走神了,老师和ta小哥人都很不错。一开始上lecture都完全没有讲码，但是作业里都需要写码，所以一开始有点懵，但是学期后半部分又开始讲码了。但disscusion 上ta都会讲码，所以也不用太担心。disscusion是跟lecture一样的大课，所有人一起上。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

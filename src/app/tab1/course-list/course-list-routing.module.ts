@@ -163,6 +163,10 @@ const routes: Routes = [
   {
     path: 'course-intro-stat120-a',
     loadChildren: () => import('./course-intro-stat120-a/course-intro-stat120-a.module').then( m => m.CourseIntroStat120APageModule)
+  },
+  {
+    path: 'course-intro-writing',
+    loadChildren: () => import('./course-intro-writing/course-intro-writing.module').then( m => m.CourseIntroWritingPageModule)
   }
 ];
 

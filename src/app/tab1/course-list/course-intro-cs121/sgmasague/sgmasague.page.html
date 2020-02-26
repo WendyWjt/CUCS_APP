@@ -1,9 +1,82 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>sgmasague</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-cs121">
+          返回CS 121列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 121 Information Retrieval - Sergio Gago Masague
+                  </a>
+                </h2>
+            </header>
+            <br>内容: Information Retrieval
+            <br>
+            <br>Professor: Sergio Gago Masague
+            <br>
+            <br>难易程度: ★★★
+            <br>
+            <br>先修科目: ICS 45C/ICS 45J & STATS 7/STATS 67
+            <br>
+            <br>TA:Tariq
+            <br>
+            <br>Discussion:无
+            <br>
+            <br>Piazza:有
+            <br>
+            <br>Textbook:无
+            <br>
+            <br>Ratemyprofessor: 4.6
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>· Quiz 25%
+            <br>
+            <br>· Final 25%
+            <br>
+            <br>· Assignment 50%
+            <br>
+            <br>Comment:
+            <br>
+            <br>老师其实挺不错的，愿意回答问题，也很accessible，还喜欢介绍project给学生（他本身是calit2主管）。Ratemyprofessor上给分可能并不能反应他的课堂。比较简单。quiz和final全是选择题而且时间很够。quiz会drop一个最低分。因为难度不大，他一般不给curve。作业是关于写与搜索引擎有关的小project，难度中等而且挺有用的。他上课会录视频发网上，所以这学期上课上座率不高。不知道他下学期会不会还录视频。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

@@ -1,9 +1,90 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>rboderick</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-math3-a">
+          返回Math 3A列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    Math 3A Intro Linear Algebra - R. Broderick
+                  </a>
+                </h2>
+            </header>
+            <br>内容：矩阵
+            <br>
+            <br>Professor:  BRODERICK, R.
+            <br>
+            <br>难易程度: ★★
+            <br>
+            <br>先修课目：无
+            <br>
+            <br>TA: REN, R. 中国人
+            <br>
+            <br>Discussion: 基本上每周四都有一个quiz，所以周四一定要去啊，周二嘛就随意了，但是多听听课也没坏处的。quiz是TA出题。
+            <br>
+            <br>Piazza: 无
+            <br>
+            <br>Textbook: David C. Lay, Linear Algebra and its applications, 5th edition, Addison-Wesley
+            <br>
+            <br>Rate my professor 评分: 3.6
+            <br>
+            <br>http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1963120
+            <br>
+            <br>规规矩矩人蛮好的老师，讲的蛮清楚的，考试也按套路。
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>· Homework - 10%
+            <br>
+            <br>8个作业，会drop 最低分数的一次，都是TA改。
+            <br>
+            <br>· quizzes 20%
+            <br>
+            <br>8个quiz，也会drop 最低分数的一次，都是TA改。
+            <br>
+            <br>· Midterm - 30%
+            <br>
+            <br>· Final - 35%
+            <br>
+            <br>midterm，final都会给practice，平时作业也一定要会做，考试之前会在课上review，讲课讲的蛮清楚的，题目都是老师自己出，TA完全不知道题目。另外就是因为是50分钟的课，所以midterm的时候做题目时间比较紧。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

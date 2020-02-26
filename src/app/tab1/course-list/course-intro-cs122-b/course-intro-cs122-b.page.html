@@ -1,9 +1,87 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs122B</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 122B Project in Databases and Web Applications - Chen Li
+                  </a>
+                </h2>
+            </header>
+            <br>内容:Project in Databases and Web Applications
+            <br>
+            <br>Professor: Chen Li
+            <br>
+            <br>难易程度: ★★★★
+            <br>
+            <br>先修科目: CS 122A/EECS 116 & ICS 45J，与CS 137, IN4MATX 124冲突
+            <br>
+            <br>TA:Qiushi Bai, Zuozhi Wang
+            <br>
+            <br>Discussion:无
+            <br>
+            <br>Piazza:有
+            <br>
+            <br>Textbook:无
+            <br>
+            <br>Ratemyprofessor: 2.7
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>· Project  88%
+            <br>
+            <br>· Quiz  11%
+            <br>
+            <br>· Evaluation 1%
+            <br>
+            <br>Comments:
+            <br>
+            <br>1.不错。需要花大量时间去研究
+            <br>
+            <br>2.老师回答问题还是快的，课上讲的会在quiz里考。教材link挺有用。提前做project一般没问题，project前自己过一遍demo基本稳了。project占比大，所以拿高分不难。
+            <br>
+            <br>3.上课讲很快。project2还没到due的时间，大家还没写完project2，就已经开始提前讲project3了。写好project就行
+            <br>
+            <br>4.教授讲课一定要听，会涉及到quiz的考点，和project的实现方法。作业量非常大，4分的课要有上8分课的准备。
+            <br>
+            <br>5.老师是中国人，课都能听懂，每一次课的具体学习内容其实包含在slides以及project的网站链接里，最主要的来自于课堂讲的内容，能不逃课最好不要逃课。project做的事情特别多，但是非常切合现实中要做一些事，学习一些全新的知识的流程。project里包含了很多各方面的技能，能学到很多东西，切记上课认真听看老师演示如何完成project。
+            <br>
+            <br>6.没去过lecture, 教授人不错。比较依赖自学, 提前预习
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

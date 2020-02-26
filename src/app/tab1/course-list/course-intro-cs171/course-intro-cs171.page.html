@@ -1,9 +1,85 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs171</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 171 Introduction to Artificial Intelligence - Richard Lathrop
+                  </a>
+                </h2>
+            </header>
+            <br>内容:Introduction to Artificial Intelligence
+            <br>
+            <br>Professor: Richard Lathrop
+            <br>
+            <br>难易程度: ★★
+            <br>
+            <br>先修科目: STATS 67 (或者STATS 7+STATS 120A) 和 ICS 46/CSE 46和MATH 2B
+            <br>
+            <br>TA:Edwin Solares
+            <br>
+            <br>Discussion: 有
+            <br>
+            <br>Piazza:有
+            <br>
+            <br>Textbook:Russell & Norvig : Artificial Intelligence; A Modern Approach, 3rd edition
+            <br>
+            <br>Ratemyprofessor: 3.5
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>(1) Quizzes 20% 四个quiz，drop一个最低的，多看看往年的quiz sample，一般分数都不会太差
+            <br>
+            <br>(2) Midterm Exam 25% 还是一样要看往年的sample
+            <br>
+            <br>(3) Coding Project 20% 分为三个部分：first, draft, final AI，只要好好按部就班完成一般都是满分
+            <br>
+            <br>(4) Discussion Attendance 10% 10次dis可以drop三个
+            <br>
+            <br>(5) Final Exam 25% 多看往年的sample，可能会有一些新的题型出现
+            <br>
+            <br>Comment:
+            <br>
+            <br>教授很老了，但是非常care学生，Piazza上所有问题都会耐心解答。教授人很好，非常为学生考虑，如果quiz或者是考试中出现一些模棱两可的题目，教授都会把这些题目cancel。唯一就是教授的声音很催眠，上课可能会睡着。
+            <br>
+            <br>课程：总体是一节比较简单的课程，project很有意思，用心学都能拿到好成绩。quiz，mid和final占的比较重 所以past exam的理解比较重要
+            <br>
+            <br>Lecture Nodes在Canvas上都会po出来。因为有历年试题作为练习题，加上考试题有很多和历年试题重复的，所以只要多做练习，Midterm和Final都很简单。最后教授给分也很不错，总体来说这门课不难拿A。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

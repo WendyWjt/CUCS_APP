@@ -1,9 +1,79 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-stat5</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    Stats 5 Seminar in Data Science - Padhraic Smyth
+                  </a>
+                </h2>
+            </header>
+            <br>内容:Seminar in Data Science
+            <br>
+            <br>Professor: Padhraic Smyth
+            <br>
+            <br>难易程度: ★
+            <br>
+            <br>先修科目: 无
+            <br>
+            <br>TA:无
+            <br>
+            <br>Discussion: 无
+            <br>
+            <br>Piazza:无
+            <br>
+            <br>Textbook:无
+            <br>
+            <br>Ratemyprofessor: 4.0
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>是一门 P/NP 的课
+            <br>
+            <br>· 一周一次seminar
+            <br>
+            <br>· Review form写证明
+            <br>
+            <br>· Final为essay
+            <br>
+            <br>Comment:
+            <br>
+            <br>每节课会来一个人介绍data science方面的知识或者看youtube。就是让你对data science各个方面有个了解吧 可以找到你感兴趣的东西
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

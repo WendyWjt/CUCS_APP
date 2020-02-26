@@ -1,9 +1,80 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>sjordan</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list/course-intro-cs132">
+          返回CS 132列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 132 Computer Networks - Scott Jordan
+                  </a>
+                </h2>
+            </header>
+            <br>Professor: Scott Jordan
+            <br>
+            <br>难易程度：★★★★★
+            <br>
+            <br>TA：NA
+            <br>
+            <br>Discussion: 不强制
+            <br>
+            <br>Piazza : 有
+            <br>
+            <br>Textbook: Computer Networking: A Top-Down Approach, James Kurose & Keith Ross, Pearson
+            <br>
+            <br>Rate my professor 评分：2.5
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>Midterm (33%)
+            <br>Final (67%)
+            <br>"Your course grade will be your "exam score", increased or decreased by up to one letter grade based on your "problem set plus paper plus participation score"."
+            <br>
+            <br>Comments:
+            <br>
+            <br>教授：老师上课枯燥， 有口音。
+            <br>
+            <br>课程：课程很复杂， 不认真看书根本听不懂， 上课随机提问。 作业和课堂就像完全两个东西。 上课讲的都是概念， 作业都是数学。 中间还有个research paper 要写。 我得了70， 我旁边ABC 得了100.. T-T .. 不推荐上， 除非你是很刻苦学习，每次都读书的那种。
+            <br>
+            <br>
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

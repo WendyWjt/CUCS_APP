@@ -1,9 +1,97 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs143A</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 143A Principles of Operating Systems - Ardalan Amiri Sani
+                  </a>
+                </h2>
+            </header>
+            <br>内容：操作系统原理
+            <br>
+            <br>Professor: Ardalan Amiri Sani
+            <br>
+            <br>难易程度：★★★★
+            <br>
+            <br>先修科目：ICS 46 and ICS 51
+            <br>
+            <br>TA：Tiago Muck
+            <br>
+            <br>Paul Kirth
+            <br>
+            <br>Jia Chen
+            <br>
+            <br>Grader：Aditya Rajendra Joshi
+            <br>
+            <br>Seyedhamidreza Tavakolifard
+            <br>
+            <br>Discussion：非强制性，TA上课讲解例题和Project的要求。还是挺有帮助的。据Prof说dis会有TA自制pop quiz用来提升总成绩用，不过最终一个都没有
+            <br>
+            <br>Piazza: 有
+            <br>
+            <br>Textbook: Operating System Concepts, A. Silberschatz, P.B. Galvin and G. Gagne, Ninth Edition (any edition of this book beyond the Fifth edition will suffice). 网上有pdf
+            <br>
+            <br>Rate my professor 评分: 2.0
+            <br>
+            <br>http://www.ratemyprofessors.com/ShowRatings.jsp?tid=2257404
+            <br>
+            <br>这位老师上课的最大问题就是他讲的东西你几乎在书上几乎找不到，因此看书几乎无用。然后PPT非常简单，只记录各种概念与例题，只看PPT的话只能死记硬背所有的知识点。讲课的时候讲解的比较清楚但很无聊，无穷无尽的概念和理论，上课的时候很不容易集中精神。
+            <br>
+            <br>Grading criteria:
+            <br>
+            <br>· Homework  30%
+            <br>
+            <br>4个HW，每个5%，难度适中。后面两个有extra credit请一定一定拿好
+            <br>
+            <br>·1个project，10%
+            <br>
+            <br>是关于CPU schedule的算法，用java写的（没学过java也不用惊慌，要coding的部分跟Python C++区别不会太大），难度实际跟ICS 46的program差不多。时限为整个学期
+            <br>
+            <br>· Midterm exam 30%
+            <br>
+            <br>时间比较紧，因此做之前先扫一眼记得哪些会做（虽然不会有多少会的）。难度非常高，因为很多都是概念题而且必须阐述原因，没有任何sample。平均分5，60的样子
+            <br>
+            <br>· Final 30%
+            <br>
+            <br>同Midterm，并且cumulative。由于Midterm平均分实在太低，Final百分比比Midterm多的话可以替代。
+            <br>
+            <br>Comment: 这节课内容非常难。如果你是逃离CSE或者CE而进的ICS，如果ICS 51，ICS 53对于你来说很懵逼很难的话请一定不要来挑战这节课。这节课虽然跟硬件没什么大关系，但是绝大部分内容都是操作系统的概念，需要理解记住的知识点非常多。如果不是必修不感兴趣的话建议绕开这节课
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

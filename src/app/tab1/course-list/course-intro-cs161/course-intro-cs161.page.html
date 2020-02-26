@@ -1,9 +1,80 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs161</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 161 Design and Analysis of Algorithms - Michael Dillencourt
+                  </a>
+                </h2>
+            </header>
+            <br>Professor: Michael Dillencourt
+            <br>
+            <br>难易程度：★★★★
+            <br>
+            <br>先修科目: ICS 45C or CSE 45C
+            <br>
+            <br>TA：NA
+            <br>
+            <br>Discussion: 不强制
+            <br>
+            <br>Piazza : 无
+            <br>
+            <br>Textbook: Algorithm Design and Applications, by Michael T. Goodrich and Roberto Tamassia.
+            <br>
+            <br>Rate my professor 评分：2.8
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>1. homework 10% 题虽然难但是只要写了就给分
+            <br>
+            <br>2. midterm 55% 相比hw来说难度低的多，也能在往年的卷子上找到原题，均分还是比较高的
+            <br>
+            <br>3.final 35%
+            <br>
+            <br>Comments:
+            <br>
+            <br>summer的同学反应他们final和midterm难度相当 那我们可能是比较惨的一届 很多选择题 考的非常详细 同时还有最后一个ppt里的画图题 最过分的是有两大道dynamic programming的题 两道啊同学们！这个本身就难 教授在最后讲的也不是非常清楚 直接导致大家final都不是很好
+            <br>
+            <br>教授：老师讲的还算是可以了。前半学期的slides较为简单，后半学期的需要个人的理解能力，如果有不懂的最好及时去和老师TA交流，莫要等到学期结束。基本上slides能看懂理解，题目都是能做的。
+            <br>
+            <br>课程：讲算法本来挺有用的，然而基本讲的很basic，很理论，算是个了解一下基本算法的课
+            <br>考试不难，因为没有超纲的题，都是讲过的内容，没有那种自我发挥的. hw是从书上出题，多为主观解释题，可能会有点难，但考试不会出现，考试的话考的是 是否理解各种算法的运作，以及最后处理出来的结果
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>

@@ -1,9 +1,79 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>course-intro-cs162</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content [scrollEvents]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="course-list">
+          返回课程列表
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="dark" fill="clear" expand="block" href="">
+          返回首页
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    CS 162 Formal Languages and Automata - Michael Goodrich
+                  </a>
+                </h2>
+            </header>
+            <br>内容:Formal Languages and Automata
+            <br>
+            <br>Professor: Michael Goodrich
+            <br>
+            <br>难易程度: ★★★
+            <br>
+            <br>先修科目: ICS 46/CSE 46 & MATH 2A& MATH 2B & ICS 6B & ICS 6D
+            <br>
+            <br>TA:Nil Mamano
+            <br>
+            <br>Discussion: 无
+            <br>
+            <br>Piazza:有
+            <br>
+            <br>Textbook:Introduction to the Theory of Computation, Third Edition, by Michael Sipser. (Do not use the International Edition.)
+            <br>
+            <br>Ratemyprofessor: 3.3
+            <br>
+            <br>Grading Criteria:
+            <br>
+            <br>· Homework     20%
+            <br>
+            <br>· Midterm1     25%
+            <br>
+            <br>· Midterm2     25%
+            <br>
+            <br>· Final      30%
+            <br>
+            <br>Comment:
+            <br>
+            <br>教授其实还不错，解释得很清楚。考试和作业出的题目很套路，study question也基本上把会考的东西的覆盖了。rate my professor上讲他上课喜欢讲daddy’s joke，说得蛮准的，我觉得有的还蛮好笑。这门课是讲的东西很多数学、逻辑，各种论证推导。考得不难，作业和study question的题目全部弄明白就没问题了。但内容感觉不是水课。教的东西和单纯写代码不一样，得要花点功夫去记住理解。另外到最后，全是做证明，说了很多方法还挺有趣的。按照TA的话说，很锻炼抽象思维。喜欢做理论的可以选。
+        </article>
+        </span>
+      </div>
+    </div>
+  </body>
 </ion-content>
