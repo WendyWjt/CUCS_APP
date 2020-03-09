@@ -474,6 +474,14 @@ const routes = [
         path: 'class-material',
         loadChildren: () => __webpack_require__.e(/*! import() | tab1-class-material-class-material-module */ "tab1-class-material-class-material-module").then(__webpack_require__.bind(null, /*! ./tab1/class-material/class-material.module */ "./src/app/tab1/class-material/class-material.module.ts")).then(m => m.ClassMaterialPageModule)
     },
+    {
+        path: 'about-us',
+        loadChildren: () => __webpack_require__.e(/*! import() | tab1-about-us-about-us-module */ "tab1-about-us-about-us-module").then(__webpack_require__.bind(null, /*! ./tab1/about-us/about-us.module */ "./src/app/tab1/about-us/about-us.module.ts")).then(m => m.AboutUsPageModule)
+    },
+    {
+        path: 'version-info',
+        loadChildren: () => __webpack_require__.e(/*! import() | tab1-version-info-version-info-module */ "tab1-version-info-version-info-module").then(__webpack_require__.bind(null, /*! ./tab1/version-info/version-info.module */ "./src/app/tab1/version-info/version-info.module.ts")).then(m => m.VersionInfoPageModule)
+    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };

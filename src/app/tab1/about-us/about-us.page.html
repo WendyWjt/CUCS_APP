@@ -1,0 +1,55 @@
+<ion-content [scrollEvents]="true">
+  <ion-item href="/cucs/home">
+    <ion-icon slot="start" color="medium" name="arrow-round-back"></ion-icon>
+    <ion-label>返回</ion-label>
+  </ion-item>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    About Us
+                  </a>
+                </h2>
+            </header>
+            <br>Chinese Union in Computer Science (CUCS) 成立于2017年4月，社团创立的初衷是希望建立一个能让ICS学院的所有中国学生进行学术或非学术性沟通交流的平台。目前社团分为四个部门，分别是：
+            <br>
+            <br>学术部  活动部  宣传部  外联
+            <br>
+            <br>未来社团将会不定期举行学术分享会以及关于ICS学院Lower Level课程（如ICS 31, 32, 33）的Review Session，以此来帮助刚进入ICS学院，并不是很熟悉编程的同学们更好的学习掌握课程内容。社团近期还计划建立一个Project Platform帮助大家寻找志同道合的朋友一起做想做的事。除此之外，社团未来还会有各种非学术的休闲活动，让大家有机会认识更多有共同语言的朋友，丰富课外生活。
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <div class="cucs-web"></div>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <div class="cucs-weixin"></div>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </article>
+        </span>
+      </div>
+    </div>
+  </body>
+</ion-content>

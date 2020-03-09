@@ -13,6 +13,14 @@ const routes: Routes = [
     path: 'class-material',
     loadChildren: () => import('./tab1/class-material/class-material.module').then( m => m.ClassMaterialPageModule)
   },
+  {
+    path: 'about-us',
+    loadChildren: () => import('./tab1/about-us/about-us.module').then( m => m.AboutUsPageModule)
+  },
+  {
+    path: 'version-info',
+    loadChildren: () => import('./tab1/version-info/version-info.module').then( m => m.VersionInfoPageModule)
+  },
 
 
 ];

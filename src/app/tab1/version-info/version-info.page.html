@@ -1,0 +1,47 @@
+<ion-content [scrollEvents]="true">
+  <ion-item href="/cucs/home">
+    <ion-icon slot="start" color="medium" name="arrow-round-back"></ion-icon>
+    <ion-label>返回</ion-label>
+  </ion-item>
+  <body class="user-select">
+    <style type="text/css">
+      /* not available for firefox & IE explorer */
+      #box {
+          width: 100%;
+          height: 88%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          line-height: 30px;
+          text-align: center;
+      }
+      #box::-webkit-scrollbar {
+          display: none;
+          visibility: hidden;
+      }
+    </style>
+    <div id="box" class="panel-body">
+      <div style="border: 1px  #000000; width: 98%; margin: 0 auto;">
+        <span>
+          <article class="article1">
+            <header>
+                <h2>
+                  <a style="color:#5FBDCE; text-decoration: none;">
+                    Version
+                  </a>
+                </h2>
+            </header>
+            <div class="cucs-logo"></div>
+            <br>应用版本：1.0alpha
+            <br>
+            <br>
+            <br>
+            <br>Staff
+            <br>
+            <br>田轶凡 - CUCS学术部
+            <br>王江桐 - CUCS学术部
+          </article>
+        </span>
+      </div>
+    </div>
+  </body>
+</ion-content>
